@@ -1,0 +1,33 @@
+# Pytest cache
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Test reports
+report.xml
+junit.xml
+
+# Virtual environments (一般的なPython環境も含めて)
+venv/
+env/
+.env/
+.venv/
+
+# その他のPythonビルド関連
+*.egg-info/
+dist/
+build/
+
+# IDEの設定ファイル (pytest関連で生成される可能性のあるもの)
+.idea/
+.vscode/
+*.swp
+
+.DS_Store
